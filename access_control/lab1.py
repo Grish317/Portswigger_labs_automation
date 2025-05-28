@@ -40,6 +40,5 @@ if "Congratulations" in response.text:
     print("Lab solved")
 
 else:
-    "Exploit did not work"
+    print("Exploit did not work")
 
-session.close()

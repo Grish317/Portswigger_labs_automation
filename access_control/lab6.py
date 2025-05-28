@@ -7,7 +7,6 @@ session = requests.Session()
 base_url = "https://ID.web-security-academy.net"
 
 # Login with wiener:peter
-response = session.get(f"{base_url}/login")
 login_data = {"username": "wiener", "password": "peter"}
 response = session.post(f"{base_url}/login", data=login_data)
 
